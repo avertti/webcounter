@@ -14,3 +14,9 @@ When button pressed twice the counter is two
     Click Button  Paina
     Click Button  Paina
     Page Should Contain  nappia painettu 2 kertaa
+
+Set Counter To 10
+    Reset Counter To Zero
+    Input Text  value  10
+    Click Button  aseta
+    Page Should Contain  nappia painettu 10 kertaa
